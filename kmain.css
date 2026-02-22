@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* wuxuu kuu ogolaanayaa mid walba inuu space kiisa qaato oo uusa mid 
+    kale ku xadgudbin  */
+
+
+}
+
+body{
+    font-family:'Inter', sans-serif;
+}
+
+.container{
+    display: flex; /*allow to change */
+
+    justify-content: center; /* xogta ku jirta cointaner ka center gee */
+
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:50px;
+
+
+}
+
+.note_area{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    width: 600px;
+    flex-direction: column;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+
+
+}
+
+
+.title{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    text-align: left;
+}
+
+.note-text{
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    display: none;
+
+}
+
+.notes{
+    position: relative;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    align-items: center;
+
+}
